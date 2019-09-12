@@ -1,0 +1,18 @@
+<?php
+    $this->headTitle("Blog");
+?>
+
+<h1>Hello World!</h1>
+
+<table class="table">
+    <tr>
+        <th>Title</th>
+        <th>Content</th>
+    </tr>
+    <?php foreach ($posts as $post): ?>
+        <tr>
+            <th><?=$this->escapeHtml($post['title']);?></th>
+            <th><?=$this->escapeHtml($post['content']);?></th>
+        </tr>
+    <?php endforeach; ?>
+</table>
