@@ -21,6 +21,7 @@ class ComposerStaticInit4540e47fe2fd77e002a6b16d839ff2d6
             'Zend\\Http\\' => 10,
             'Zend\\EventManager\\' => 18,
             'Zend\\Escaper\\' => 13,
+            'Zend\\Db\\' => 8,
             'Zend\\Config\\' => 12,
             'Zend\\ComponentInstaller\\' => 24,
             'ZF\\DevelopmentMode\\' => 19,
@@ -92,6 +93,10 @@ class ComposerStaticInit4540e47fe2fd77e002a6b16d839ff2d6
         'Zend\\Escaper\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-escaper/src',
+        ),
+        'Zend\\Db\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-db/src',
         ),
         'Zend\\Config\\' => 
         array (

@@ -11,8 +11,8 @@
     </tr>
     <?php foreach ($posts as $post): ?>
         <tr>
-            <th><?=$this->escapeHtml($post['title']);?></th>
-            <th><?=$this->escapeHtml($post['content']);?></th>
+            <th><?=$this->escapeHtml($post->title);?></th>
+            <th><?=$this->escapeHtml($post->content);?></th>
         </tr>
     <?php endforeach; ?>
 </table>
