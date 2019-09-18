@@ -7,6 +7,7 @@ namespace Composer\Autoload;
 class ComposerStaticInit4540e47fe2fd77e002a6b16d839ff2d6
 {
     public static $files = array (
+        '10a6847eba8a430a134fad89f4a30a26' => __DIR__ . '/..' . '/zendframework/zend-cache/autoload/patternPluginManagerPolyfill.php',
         '34901568a1e26d13dd475cb2c85e0284' => __DIR__ . '/..' . '/zendframework/zend-form/autoload/formElementManagerPolyfill.php',
     );
 
@@ -19,11 +20,13 @@ class ComposerStaticInit4540e47fe2fd77e002a6b16d839ff2d6
             'Zend\\Stdlib\\' => 12,
             'Zend\\ServiceManager\\' => 20,
             'Zend\\Router\\' => 12,
+            'Zend\\Mvc\\I18n\\' => 14,
             'Zend\\Mvc\\' => 9,
             'Zend\\ModuleManager\\' => 19,
             'Zend\\Loader\\' => 12,
             'Zend\\Json\\' => 10,
             'Zend\\InputFilter\\' => 17,
+            'Zend\\I18n\\' => 10,
             'Zend\\Hydrator\\' => 14,
             'Zend\\Http\\' => 10,
             'Zend\\Form\\' => 10,
@@ -33,11 +36,14 @@ class ComposerStaticInit4540e47fe2fd77e002a6b16d839ff2d6
             'Zend\\Db\\' => 8,
             'Zend\\Config\\' => 12,
             'Zend\\ComponentInstaller\\' => 24,
+            'Zend\\Cache\\' => 11,
             'ZF\\DevelopmentMode\\' => 19,
         ),
         'P' => 
         array (
+            'Psr\\SimpleCache\\' => 16,
             'Psr\\Container\\' => 14,
+            'Psr\\Cache\\' => 10,
         ),
         'I' => 
         array (
@@ -79,6 +85,10 @@ class ComposerStaticInit4540e47fe2fd77e002a6b16d839ff2d6
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-router/src',
         ),
+        'Zend\\Mvc\\I18n\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-mvc-i18n/src',
+        ),
         'Zend\\Mvc\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-mvc/src',
@@ -98,6 +108,10 @@ class ComposerStaticInit4540e47fe2fd77e002a6b16d839ff2d6
         'Zend\\InputFilter\\' => 
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-inputfilter/src',
+        ),
+        'Zend\\I18n\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-i18n/src',
         ),
         'Zend\\Hydrator\\' => 
         array (
@@ -135,13 +149,25 @@ class ComposerStaticInit4540e47fe2fd77e002a6b16d839ff2d6
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-component-installer/src',
         ),
+        'Zend\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/zendframework/zend-cache/src',
+        ),
         'ZF\\DevelopmentMode\\' => 
         array (
             0 => __DIR__ . '/..' . '/zfcampus/zf-development-mode/src',
         ),
+        'Psr\\SimpleCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
+        ),
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Psr\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/cache/src',
         ),
         'Interop\\Container\\' => 
         array (

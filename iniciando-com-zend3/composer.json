@@ -17,7 +17,10 @@
         "zendframework/zend-mvc": "^3.0.1",
         "zfcampus/zf-development-mode": "^3.0",
         "zendframework/zend-db": "^2.10",
-        "zendframework/zend-form": "^2.14"
+        "zendframework/zend-form": "^2.14",
+        "zendframework/zend-view": "^2.11",
+        "zendframework/zend-mvc-i18n": "^1.1",
+        "zendframework/zend-cache": "^2.9"
     },
     "autoload": {
         "psr-4": {
@@ -30,6 +33,9 @@
             "ApplicationTest\\": "module/Application/test/"
         }
     },
+    "config": {
+        "process-timeout": 0
+    },
     "extra": [],
     "scripts": {
         "cs-check": "phpcs",
@@ -40,7 +46,7 @@
         "post-create-project-cmd": [
             "@development-enable"
         ],
-        "serve": "php -S 0.0.0.0:8080 -t public public/index.php",
+        "serve": "php -S 0.0.0.0:8000 -t public public/index.php",
         "test": "phpunit"
     }
 }
